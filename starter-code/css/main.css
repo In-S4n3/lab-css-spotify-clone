@@ -6,3 +6,84 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+.imageLogo {
+  width: 250px;
+  padding: 10px
+}
+
+.nav-bar-li {
+  float: right;
+  padding: 25px 30px;
+}
+
+.nav-bar-li li {
+  display: inline;
+  padding-left: 20px;
+  font-size: 1.3em;
+}
+
+.container {
+  background-image: url(/lab-css-spotify-clone/starter-code/images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 250px;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.container p {
+  padding-left: 6;
+  text-align: center;
+  width: 800px;
+}
+
+.whatsOnSpotify {
+  text-align: center;
+  color: black;
+}
+
+.hrClass {
+  width: 300px;
+  height: 2px;
+}
+
+.musicIcon {
+  width: 150px;
+}
+
+.highQh {
+  width: 150px;
+}
+
+.devicesIcon {
+  width: 150px;
+}
+
+.iconsPosition {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%
+}
+
+.col-middle {
+  margin: 0 5%
+}
+
+.clearfix {
+  clear: both;
+}
